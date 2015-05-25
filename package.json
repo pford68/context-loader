@@ -1,5 +1,5 @@
 {
-  "name": "context-loader",
+  "name": "ctx-loader",
   "version": "1.0.0",
   "description": "Unobtrusively changes the way NodeJS's require() function locations and loads modules to facilitate depedency injection and IoC.",
   "main": "index.js",

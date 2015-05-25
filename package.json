@@ -1,5 +1,5 @@
 {
-  "name": "ContextLoader",
+  "name": "context-loader",
   "version": "1.0.0",
   "description": "Unobtrusively changes the way NodeJS's require() function locations and loads modules to facilitate depedency injection and IoC.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pford68/ContextLoader"
+    "url": "https://github.com/pford68/context-loader"
   },
   "keywords": [
     "DI",
@@ -22,9 +22,9 @@
   "author": "Philip Ford",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pford68/ContextLoader/issues"
+    "url": "https://github.com/pford68/context-loader/issues"
   },
-  "homepage": "https://github.com/pford68/ContextLoader",
+  "homepage": "https://github.com/pford68/context-loader",
   "dependencies": {
     "aspectjs": "^1.1.11",
     "config": "^1.13.0",

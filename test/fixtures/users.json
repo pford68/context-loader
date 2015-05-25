@@ -1,0 +1,26 @@
+[
+  {
+    "userId": "paford",
+    "first": "Philip",
+    "last": "Ford",
+    "preferences": [],
+    "sessions": [],
+    "status": "active"
+  },
+  {
+    "userId": "mjpatt",
+    "first": "Mike",
+    "last": "Patterson",
+    "preferences": [],
+    "sessions": [],
+    "status": "active"
+  },
+  {
+    "userId": "adgrand",
+    "first": "Art",
+    "last": "Grandizio",
+    "preferences": [],
+    "sessions": [],
+    "status": "inactive"
+  }
+]

@@ -13,7 +13,8 @@ without changing my modules, and (2) the "../../../../" problem.
 
 Of course, both problems could be solved safely and easily by using a wrapper.  However, when I first started programming with NodeJS, I found 
 the idea of importing files with non-standard require() calls to be ugly, and perhaps confusing to other developers.  Thus, I preferred
-this approach of augmenting require() behind the scenes. (I realize that I may be wrong on both counts.)
+this approach of augmenting require() behind the scenes. (I realize that I may be wrong on both counts.)  Furthermore, if you use Browserify,
+a wrapper won't solve your problem.
 
 Also the syntax that contextLoader allows is nice to use:  it's nice to be able to write something like
 ``require("classpath!services/dao/UserDAO")`` and have it load the proper module.  The path seems much more meaningful and intuitive
@@ -36,12 +37,12 @@ in the "browser" field  (or "aliasify" field if you use aliasify) of package.jso
 }
 
 ```
-Of course, you can do the same thing with the ordinary "require()" call.  Otherwise, browserify will barf for the same reason
+Of course, you can do the same thing with "require()" anyway.  In either case, if you don't do such mapping, browserify will barf for the same reason
 that it barfs on require wrappers:  Browserify doesn't take variable paths.
 
 
 ## Usage
-Require ``js-context`` in your files.  Then you can use prefixes in require paths to change the way require()
+Require ``ctx-loader`` in your files.  Then you can use prefixes in require paths to change the way require()
 finds specific modules.
 
 ### The context! prefix

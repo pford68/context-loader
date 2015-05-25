@@ -1,7 +1,7 @@
 {
   "name": "ctx-loader",
-  "version": "1.0.0",
-  "description": "Unobtrusively changes the way NodeJS's require() function locations and loads modules to facilitate depedency injection and IoC.",
+  "version": "1.0.1",
+  "description": "Unobtrusively changes the way NodeJS's require() function locates and loads modules to facilitate depedency injection and IoC.",
   "main": "index.js",
   "scripts": {
     "test": "jasmine-node test/spec"
